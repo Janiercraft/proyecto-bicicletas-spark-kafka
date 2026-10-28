@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.sparkStaging/
+metastore_db/
+derby.log
+
+# Instaladores y archivos grandes de Kafka
+kafka_*.tgz
+
+# Datos y archivos temporales de Kafka
+kafka_cluster_id.txt
+
+# Evidencias temporales
+.DS_Store
+
+# Archivos auxiliares de Spark
+*.crc
+._SUCCESS.crc
+
+# Archivos de control y salida de Spark
+resultados/bicicletas_limpio/_SUCCESS
